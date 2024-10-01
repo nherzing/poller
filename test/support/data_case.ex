@@ -18,8 +18,6 @@ defmodule Poller.DataCase do
 
   using do
     quote do
-      alias Poller.Repo
-
       import Ecto
       import Ecto.Changeset
       import Ecto.Query

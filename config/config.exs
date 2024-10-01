@@ -8,7 +8,7 @@
 import Config
 
 config :poller,
-  ecto_repos: [Poller.Repo],
+  ecto_repos: [],
   generators: [timestamp_type: :utc_datetime]
 
 # Configures the endpoint
