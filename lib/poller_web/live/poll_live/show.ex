@@ -26,7 +26,7 @@ defmodule PollerWeb.PollLive.Show do
 
   @impl true
   def handle_info(:reset, socket) do
-    {:ok, poll} = Poll.register()
+    {:ok, %{poll: poll}} = Poll.register()
     {:noreply, assign(socket, poll: poll, vote: nil, results: nil)}
   end
 
