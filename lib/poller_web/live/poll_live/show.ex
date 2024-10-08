@@ -39,7 +39,7 @@ defmodule PollerWeb.PollLive.Show do
           "w-full h-full text-2xl font-bold py-8 rounded-lg shadow-lg transition duration-300 ease-in-out transform",
           if(@vote == choice.id,
             do: "bg-green-500 hover:bg-green-600 text-white",
-            else: "bg-blue-500 hover:bg-blue-600 text-white"
+            else: "bg-blue-400 hover:bg-blue-500 text-white"
           )
         ]}>
           <div
